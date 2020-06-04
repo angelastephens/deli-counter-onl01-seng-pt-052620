@@ -2,7 +2,9 @@ def line (katz_deli)
   if line_array.size == 0
     puts " The line is currently empty"
   else
-    name_array []
-    
+    name_array = line_array.map.with_index(1) do |name,index| "#{index}. #{name}"
+  end
+  puts "The line is currently: #{name_array.join( ' ')}"
+  
 end
 end
