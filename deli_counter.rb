@@ -1,5 +1,5 @@
-katz_deli = []
-def deli_counter(num)
+def line (katz_deli)
+
   if num <=0
     puts "the line is empty"
 end
