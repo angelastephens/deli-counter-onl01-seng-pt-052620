@@ -7,7 +7,6 @@ def line (line_array)
   puts "The line is currently: #{name_array.join( ' ')}"
   
 end
-end
 
 def take_a_number(Line_array, name)
   line_array << name
