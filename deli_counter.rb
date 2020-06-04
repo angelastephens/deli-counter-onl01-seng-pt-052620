@@ -6,10 +6,10 @@ def line (line_array)
       |name,index| "#{index}. #{name}"
   end
   puts "The line is currently: #{name_array.join(' ')}"
-  
+end
 end
 
-def take_a_number(Line_array, name)
+def take_a_number(line_array, name)
   line_array << name
   puts "Welcome, #{name}. You are number #{line_array.length} in line."
 end
